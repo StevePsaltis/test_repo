@@ -122,3 +122,9 @@ parfor i = 1:n
 end
 tocBytes(gcp)
 toc
+
+%% Added new branch to test some features
+vec = rand(1000, 1);
+
+vec(vec > 0.5) = -1;
+
