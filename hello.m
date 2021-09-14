@@ -123,6 +123,8 @@ end
 tocBytes(gcp)
 toc
 
-%% New updates on test branch
-vec = rand(1000,1);
+%% Added new branch to test some features
+vec = rand(1000, 1);
+
 vec(vec > 0.5) = -1;
+
